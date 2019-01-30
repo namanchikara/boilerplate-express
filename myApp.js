@@ -3,6 +3,8 @@ var express = require('express');
 const hbs = require('express-handlebars');
 var app = express();
 
+
+console.log('Hello World');
 app.get('/', (req, res) =>{
   res.send('<h1><p>Some HTML</p></h1>')
 })
