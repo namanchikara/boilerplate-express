@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', (req, res) =>{
-  res.render('index')
+  res.render('index.html')
 })
 // --> 7)  Mount the Logger middleware here
 
