@@ -4,7 +4,7 @@ const hbs = require('express-handlebars');
 var app = express();
 
 app.get('/', (req, res) =>{
-  res.send(index.html)
+  res.send('<h1><p>Some HTML</p></h1>')
 })
 // --> 7)  Mount the Logger middleware here
 
